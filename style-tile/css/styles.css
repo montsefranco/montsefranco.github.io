@@ -23,5 +23,59 @@
    background-size:contain;
 }
 .pattern-2{
+    background: url(../img/stbx.jpg) no-repeat;
+    background-size:contain;
+}
+/* Images */
+
+.imagery-1 img {
+    box-shadow:5px 5px 0 red, 
+                5px 10px 0 white,
+                5px 15px 0 blue;
+}
+.icon-1 {
+    border: none;
+}
+
+.icon-2 {
+    background: url(../img/iconmonstr-phone-3-240.png);
+    background-size: contain;
+}
+
+/* Navigation */
+
+nav li{
+    list-style:none;
+    display: inline-block;
+    float: left;
+  
     
+}
+nav a:link {
+    background: red;
+    padding: 20px 20px 5px 20px;
+    max-resolution: 0 10px 0 10px;
+    text-decoration: none;
+    border-bottom: 2px solid blue;
+    border-radius: 15px;
+    
+   
+    } 
+
+nav a:visited{
+    color: white;
+}
+
+nav a:focus{
+    border:10px solid red;
+}
+}
+nav a:hover{
+    background: white;
+    color:red;
+    margin-top: 20px;
+    
+}
+nav a:active{
+    background:black;
 }
