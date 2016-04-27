@@ -1,2 +1,27 @@
+/* Color Palette*/
+.color-1{
+    background: red;
+    
+}
+.color-2{
+    background: white;
+}
 
+.color-3{
+    background: blue;
+}
 
+.color-4{
+    background: black;
+}
+
+/* Textures and Patterns */
+
+.pattern-1{
+    background: url("https://img0.etsystatic.com/000/0/6221530/il_fullxfull.338856278.jpg");
+        
+   background-size:contain;
+}
+.pattern-2{
+    
+}
