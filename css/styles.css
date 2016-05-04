@@ -11,4 +11,22 @@ header .img{
     width:100px
 }
 
-    
+/* NAV   */
+
+nav li{
+  list-style: none;
+  display:inline-block;
+}
+
+nav a:link, 
+nav a:visited {
+  background: red;
+  text-decoration: none;
+  padding:1em;
+  transition: all .5s;
+}
+nav a:hover,
+nav a:active{
+  background:blue;
+  margin-left: 1 em;
+}
