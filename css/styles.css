@@ -1,0 +1,14 @@
+/* My Styles */
+
+/*Global*/
+body {
+    background: url(../img/bg.jpg);
+}
+
+
+/*header*/
+header .img{
+    width:100px
+}
+
+    
