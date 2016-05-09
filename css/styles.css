@@ -1,8 +1,8 @@
 /* My Styles */
-
 /*Global*/
+@import url(https://fonts.googleapis.com/css?family=IM+Fell+Double+Pica);
 body {
-    background: url(../img/bg.jpg);
+    background: url(../img/pattern.png);
 }
 
 
@@ -20,13 +20,26 @@ nav li{
 
 nav a:link, 
 nav a:visited {
-  background: red;
+  background: teal;
   text-decoration: none;
   padding:1em;
   transition: all 1s;
 }
 nav a:hover,
 nav a:active{
-  background:blue;
+  background:white;
   margin-left: 1 em;
 }
+
+/*Quote*/
+
+blockquote{
+    color:white;
+    font-size: 3em;
+    text-shadow:
+        2px,2px,0, blue,
+        4px,4px,0, white,
+        -6px,-6px,0,yellow;
+    font-family: 'IM Fell Double Pica', serif;
+}
+    
