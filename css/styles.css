@@ -1,45 +1,66 @@
-/* My Styles */
-/*Global*/
+/* My stylesheet */
+
 @import url(https://fonts.googleapis.com/css?family=IM+Fell+Double+Pica);
+
+/* Global, Sitewide, Boilerplate */
+
 body {
-    background: url(../img/pattern.png);
+background: url(../img/pattern.jpg);
+ 
+}
+
+/* Header */
+header img {
+width: 100px;
+}
+h1{
+    text-align: center;
+    font-size: 3em;
+    color:teal;
+    font-family: cursive;
 }
 
 
-/*header*/
-header .img{
-    width:100px
+/* our main nav*/
+nav li {
+list-style: none;
+display: inline-block;
+
 }
 
-/* NAV   */
-
-nav li{
-  list-style: none;
-  display:inline-block;
-}
-
-nav a:link, 
+nav a:link,
 nav a:visited {
-  background: teal;
-  text-decoration: none;
-  padding:1em;
-  transition: all 1s;
+
+;
+text-decoration: none;
+padding: 2em;
+transition: all .5s;
 }
+
 nav a:hover,
 nav a:active{
-  background:white;
-  margin-left: 1 em;
+background: white;
+margin-left: .5em;
 }
 
-/*Quote*/
-
-blockquote{
-    color:white;
-    font-size: 3em;
-    text-shadow:
-        2px,2px,0, blue,
-        4px,4px,0, white,
-        -6px,-6px,0,yellow;
-    font-family: 'IM Fell Double Pica', serif;
-}
+h3{
+    text-align: center;
+    color: rgb(59, 58, 65);
+   
     
+}
+p{
+    font-family: serif, bold;
+    
+}
+
+/* Quote */
+blockquote {
+font-family:,  cursive;
+color: teal;
+font-size: 3em;
+text-align: center;
+text-shadow: 
+    2px,0px,black,
+
+}
