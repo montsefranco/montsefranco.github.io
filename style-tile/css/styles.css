@@ -26,20 +26,33 @@
     background: url(https://cdn.vectorstock.com/i/composite/33,28/rose-pattern-white-vector-1043328.jpg) ;
     background-size:contain; 
 }
+.pattern-3{
+    background: url(http://previews.123rf.com/images/julieboro/julieboro1402/julieboro140200038/26163227-blue-Sapphire-seamless-pattern-Stock-Vector.jpg);
+    background-size:contain;
+}
 /* Images */
 
 .imagery-1 img {
-    box-shadow:5px 5px 0 red, 
+    box-shadow:5px 5px 0 navy, 
                 5px 10px 0 white,
                 5px 15px 0 blue;
 }
+.imagery-2 img{
+    box-shadow:5px 5px 0 darkgreen, 
+                5px 10px 0 white,
+                5px 10px 0 blue;
+}
 .icon-1 {
+    
     border: none;
 }
 
 .icon-2 {
-    background: url(../img/iconmonstr-phone-3-240.png);
+    border:none;
     background-size: contain;
+}
+.icon-3{
+    border:none;
 }
 
 /* Navigation */
@@ -52,12 +65,13 @@ nav li{
     
 }
 nav a:link {
-    background: red;
-    padding: 20px 20px 5px 20px;
+    background: navy;
+    color:white;
+    padding: 10px 10px 15px 10px;
     max-resolution: 0 10px 0 10px;
-    text-decoration: none;
-    border-bottom: 2px solid blue;
-    border-radius: 15px;
+    text-decoration: white;
+    border-bottom: 4px solid green;
+    border-radius: 20px;
     
    
     } 
@@ -67,7 +81,7 @@ nav a:visited{
 }
 
 nav a:focus{
-    border:10px solid red;
+    border:10px solid green;
 }
 }
 nav a:hover{
@@ -78,4 +92,28 @@ nav a:hover{
 }
 nav a:active{
     background:black;
+}
+h1{
+    font-family: cursive;
+    font-style: italic;
+    font-weight: 200;
+    color:cadetblue;
+    font-size: 2.5em;
+}
+h2{
+    font-family:sans-serif;
+    font-size: 1.5em;
+    color:darkblue;
+}
+
+h3{
+    font-family: sans-serif;
+    color:darkgreen;
+    font-variant: small-caps
+}
+
+p{
+    font-family: sans-serif;
+    font-variant: normal;
+    color:black;
 }
