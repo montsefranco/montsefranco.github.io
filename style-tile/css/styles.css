@@ -1,14 +1,14 @@
 /* Color Palette*/
 .color-1{
-    background: red;
+    background: navy;
     
 }
 .color-2{
-    background: white;
+    background: green;
 }
 
 .color-3{
-    background: blue;
+    background: white;
 }
 
 .color-4{
@@ -18,13 +18,13 @@
 /* Textures and Patterns */
 
 .pattern-1{
-    background: url("https://img0.etsystatic.com/000/0/6221530/il_fullxfull.338856278.jpg");
+    background: url(../img/pattern.png);
         
    background-size:contain;
 }
 .pattern-2{
-    background: url(../img/stbx.jpg) no-repeat;
-    background-size:contain;
+    background: url(https://cdn.vectorstock.com/i/composite/33,28/rose-pattern-white-vector-1043328.jpg) ;
+    background-size:contain; 
 }
 /* Images */
 
