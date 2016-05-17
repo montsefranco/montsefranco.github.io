@@ -6,7 +6,7 @@
 
 body {
 background: url(../img/pattern.jpg);
- 
+
 }
 
 /* Header */
@@ -51,6 +51,7 @@ h3{
 }
 p{
     font-family: serif, bold;
+   
     
 }
 
