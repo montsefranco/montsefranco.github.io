@@ -24,7 +24,9 @@ h1{
 /* our main nav*/
 nav li {
 list-style: none;
+    color:darkcyan;
 display: inline-block;
+    
 
 }
 
