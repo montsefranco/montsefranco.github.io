@@ -42,6 +42,12 @@
                 5px 10px 0 white,
                 5px 10px 0 blue;
 }
+
+.imagery-3 img{
+    box-shadow:5px 5px 0 darkgreen, 
+                5px 10px 0 white,
+                5px 10px 0 blue;
+}
 .icon-1 {
     
     border: none;
@@ -94,7 +100,7 @@ nav a:active{
     background:black;
 }
 h1{
-    font-family: cursive;
+    font-family:'Montserrat Alternates', sans-serif;
     font-style: italic;
     font-weight: 200;
     color:cadetblue;
