@@ -2,7 +2,6 @@
 
 @import url(https://fonts.googleapis.com/css?family=IM+Fell+Double+Pica);
 
-/* Global, Sitewide, Boilerplate */
 
 body {
   background:white;
@@ -17,37 +16,49 @@ body {
 
 
 
-nav li {
-    padding:.5em;
-    background:white;
-    color:darkcyan;
-display:inline-block
+nav li{
+    list-style:none;
+    display: inline-block;
+    float: left;
+    padding:2em;
+  
     
+}
+nav a:link {
+    background: navy;
+    color:white;
+    padding: 10px 10px 15px 10px;
+    max-resolution: 0 10px 0 10px;
+    text-decoration: white;
+    border-bottom: 4px solid green;
+    border-radius: 20px;
     
+   
+    } 
 
+nav a:visited{
+    color: white;
 }
 
-nav a:link,
-nav a:visited {
-
-text-decoration: none;
-padding: .5em;
-transition: all .5s;
-    background:white;
+nav a:focus{
+    border:10px solid green;
 }
-
-nav a:hover,
+}
+nav a:hover{
+    background: white;
+    color:red;
+    margin-top: 20px;
+    
+}
 nav a:active{
-background: white;
-margin-left: .5em;
+    background:black;
 }
 
-
-h1{
+header{
     text-align: center;
     font-size: 3em;
     color:ghostwhite;
-    font-family: bold;
+    font-family: 'Montserrat Alternates', sans-serif;
     padding: 1.5em;
     margin:.5em;
     
@@ -56,7 +67,24 @@ h1{
     
 }
 
- 
+
+
+footer{
+    
+    padding:2em;
+    background:navy;
+    color:white;
+    font-size:1em;
+    text-align: center;
+    font-family: 'Montserrat Alternates', sans-serif;
+}
+img{
+    display:inline-block;
+    padding:.5em;
+}
+
+
+
 .lb {
 	display: none;
 	position: fixed!important;
@@ -65,12 +93,12 @@ h1{
 	height: 100%;
 	top: 0;
 	left: 0;
-	background: rgba(0,0,0,0.8);
+	background: rgba(10,2,2,3.5);
   text-align:center;
 }
 
 .lb img {
-	max-width: 90%;
+	max-width: 80%;
 	max-height: 80%;
 	margin-top: 2%;
 }
